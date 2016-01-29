@@ -7,7 +7,7 @@
 <body style="background-color: ghostwhite"></body>
 </head>
 <ul>
-    <li><a href="#home">Home</a></li>
+    <li><a href="index.php">Home</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="product.php">Products</a></li>
     <ul style="float:right;list-style-type:none;">
