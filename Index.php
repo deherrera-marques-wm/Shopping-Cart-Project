@@ -7,11 +7,11 @@
 <body style="background-color: ghostwhite"></body>
 </head>
 <ul>
-    <li><a href="index.php">Home</a></li>
+    <li><a class="active" href="index.php">Home</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="product.php">Products</a></li>
     <ul style="float:right;list-style-type:none;">
-        <li><a href="#about">About</a></li>
+        <li><a href="about.php">About</a></li>
         <li><a href="#cart">Your Items</a></li>
     </ul>
 </ul>
