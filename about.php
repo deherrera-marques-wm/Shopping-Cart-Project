@@ -17,6 +17,7 @@
     </ul>
     <h1>About Me</h1>
     <hr>
+    <p>N3rds-R-Us is a website for all N3rdy G4mers who want to play video games like the pros. Don't be that guy (Or girl) that doesn't get gaming things because you think it is pointless because of how much money things are.</p>
     <footer><p>Copyright 2016</p><a href="#">My"hidden"email@gmail.com</a></footer>
 </head>
 </body>

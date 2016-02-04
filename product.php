@@ -28,13 +28,14 @@
 <a href="#" class="myButton">Add to Cart</a>
 <br>
 <img src="https://cdn0.vox-cdn.com/thumbor/aHRhyXdY_etJFhCVSy3tZ8_G5EQ=/cdn0.vox-cdn.com/uploads/chorus_asset/file/3916796/alienware-15.0.png"/>
-<p>$50</p>
+<p>$150</p>
 <br>
 <a href="#" class="myButton">Add to Cart</a>
 <br>
 
 
-<img src="http://10mostthings.com/wp-content/uploads/2014/05/Razer-DeathStalker-Ultimate-Gaming-Keyboard-700x325.jpg" />
+<img src="http://10mostthings.com/wp-content/uploads/2014/05/Razer-DeathStalker-Ultimate-Gaming-Keyboard-700x325.jpg"/>
+<p>$250</p>
 <br>
 <a href="#" class="myButton">Add to Cart</a>
 <br>
