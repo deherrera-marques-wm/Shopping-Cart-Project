@@ -10,6 +10,8 @@
     <li><a href="about.php">About</a></li>
     <ul style="float:right;list-style-type:none;">
         <li><a href="#cart">Your Items</a></li>
+        <li><a href="create%20account.php">Create Account</a></li>
+        <li><a href="sign%20in.php">Login</a></li>
     </ul>
 </ul>
 <h1>Products</h1>

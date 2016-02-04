@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="styleSheet.css">
 <body style="background-color: ghostwhite">
 <ul>
-    <li><a class="active" href="index.php">Home</a></li>
+    <li><a href="index.php">Home</a></li>
     <li><a href="product.php">Products</a></li>
     <li><a href="about.php">About</a></li>
 </ul>

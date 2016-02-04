@@ -7,6 +7,25 @@
 <h1 id="name">N3rds-R-Us</h1>
 <link rel="stylesheet" type="text/css" href="styleSheet.css">
 <body style="background-color: ghostwhite">
+<script>
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
 <ul>
     <li><a class="active" href="index.php">Home</a></li>
     <li><a href="product.php">Products</a></li>
@@ -14,9 +33,10 @@
     <ul style="float:right;list-style-type:none;">
         <li><a href="#cart">Your Items</a></li>
         <li><a href="create%20account.php">Create Account</a></li>
-        <li><a href="sign%20in.php">login</a></li>
+        <li><a href="sign%20in.php">Login</a></li>
     </ul>
 </ul>
+
 <div id="pro">
     <h1 style="text-align:center;">Featured Products</h1>
     <a href="product.php">
