@@ -1,8 +1,9 @@
 <?php ?>
 
 <!DOCTYPE html>
-<title>About Me</title>
+<title>About</title>
 <link rel="stylesheet" type="text/css" href="styleSheet.css">
+<body style="background-color: ghostwhite">
 <head>
     <ul>
         <li><a href="index.php">Home</a></li>
@@ -16,3 +17,4 @@
     <hr>
     <footer><p>Copyright 2016</p><a href="#">My"hidden"email@gmail.com</a></footer>
 </head>
+</body>

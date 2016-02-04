@@ -16,14 +16,17 @@
 <hr>
 
 <img src="http://www.technocrazed.com/wp-content/uploads/2013/08/Crazy-Computer-Mouse-Designs-1.jpg"/>
+<p>$10</p>
 <br>
 <a href="#" class="myButton">Add to Cart</a>
 <br>
 <img src="http://www.alux.com/wp-content/uploads/2014/09/Most-Expensive-Computer-Mice-Top-10-1.-The-Gold-Bullion-Wireless-Mouse-36.835.jpg"/>
+<p>$10</p>
 <br>
 <a href="#" class="myButton">Add to Cart</a>
 <br>
 <img src="https://cdn0.vox-cdn.com/thumbor/aHRhyXdY_etJFhCVSy3tZ8_G5EQ=/cdn0.vox-cdn.com/uploads/chorus_asset/file/3916796/alienware-15.0.png"/>
+<p>$50</p>
 <br>
 <a href="#" class="myButton">Add to Cart</a>
 <br>

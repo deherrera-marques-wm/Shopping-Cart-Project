@@ -7,13 +7,14 @@
 <h1 id="name">N3rds-R-Us</h1>
 <link rel="stylesheet" type="text/css" href="styleSheet.css">
 <body style="background-color: ghostwhite">
-</head>
 <ul>
     <li><a class="active" href="index.php">Home</a></li>
     <li><a href="product.php">Products</a></li>
     <li><a href="about.php">About</a></li>
     <ul style="float:right;list-style-type:none;">
         <li><a href="#cart">Your Items</a></li>
+        <li><a href="create%20account.php">Create Account</a></li>
+        <li><a href="sign%20in.php">login</a></li>
     </ul>
 </ul>
 <div id="pro">
@@ -24,6 +25,6 @@
         <img border="0" src="http://randommization.com/wp-content/uploads/2011/10/Steampunk-Xbox-360-Controller.jpg"/>
     </a>
 </div>
-<footer><p>Copyright 2016</p><a href="#">My"hidden"email@gmail.com</a></footer>
+<footer><p>Copyright 2016</p><a href="#" id="email">My"hidden"email@gmail.com</a></footer>
 </body>
 </html>
