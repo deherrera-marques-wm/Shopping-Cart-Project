@@ -40,27 +40,32 @@
 <a href="#" class="myButton">Add to Cart</a>
 <br>
 <img src="http://g04.a.alicdn.com/kf/HTB1D3PRHFXXXXbUaXXXq6xXFXXXQ/Blue-Orange-EACH-G2000-Over-ear-Game-Gaming-font-b-Headphone-b-font-Headset-Earphone-Headband.jpg"/>
+<p>$125</p>
 <br>
 <a href="#" class="myButton">Add to Cart</a>
 <br>
 <img src="https://s-media-cache-ak0.pinimg.com/564x/d4/eb/ff/d4ebffc28c110094879337bf7781c9d2.jpg"/>
+<p>$50</p>
 <br>
 <a href="#" class="myButton">Add to Cart</a>
 <br>
 
 
 <img src="http://ecx.images-amazon.com/images/I/61K38-2o56L._SL1000_.jpg"/>
+<p>$450</p>
 <br>
 <a href="#" class="myButton">Add to Cart</a>
 <br>
 <img src="http://randommization.com/wp-content/uploads/2011/10/Steampunk-Xbox-360-Controller.jpg"/>
+<p>$25</p>
 <br>
 <a href="#" class="myButton">Add to Cart</a>
 <br>
 <img src="http://g02.a.alicdn.com/kf/HTB1CMX_KFXXXXciXFXXq6xXFXXXs/Somic-p1-earphones-mobile-phone-computer-flat-general-earphones-7-1-font-b-Gaming-b-font.jpg"/>
+<p>$10</p>
 <br>
 <a href="#" class="myButton">Add to Cart</a>
 <br>
-<footer><p>Copyright 2016</p><a href="#">My"hidden"email@gmail.com</a></footer>
+<footer><p>Copyright 2016</p><a href="#" id="email1">My"hidden"email@gmail.com</a></footer>
 </body>
 </html>

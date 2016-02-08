@@ -7,25 +7,6 @@
 <h1 id="name">N3rds-R-Us</h1>
 <link rel="stylesheet" type="text/css" href="styleSheet.css">
 <body style="background-color: ghostwhite">
-<script>
-    function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-    }
-
-    window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn')) {
-
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-            }
-        }
-    }
-</script>
 <ul>
     <li><a class="active" href="index.php">Home</a></li>
     <li><a href="product.php">Products</a></li>
@@ -45,6 +26,6 @@
         <img border="0" src="http://randommization.com/wp-content/uploads/2011/10/Steampunk-Xbox-360-Controller.jpg"/>
     </a>
 </div>
-<footer><p>Copyright 2016</p><a href="#" id="email">My"hidden"email@gmail.com</a></footer>
+<footer><p>Copyright 2016</p><a href="#" id="email1">My"hidden"email@gmail.com</a></footer>
 </body>
 </html>

@@ -1,5 +1,27 @@
 <?php
+    include_once(Connector.php);
 
+    if(@$_POST['login']) {
+        $query = $con->prepare("SELECT * FROM Users WHERE Email = :email AND Password = :pass");
+        $result = $query->execute(
+            array(
+                'username' => $_POST['email'],
+                'password' => $_POST['pass']
+            )
+        );
+        $userinfo = $query->fetch();
+        ​
+        if ($userinfo) {
+            ​
+            $success = "User, " . $_POST['email'] . " was successfully logged in.";
+
+            header("Location: profile.php");
+        }
+
+        else {
+            $success = "There was an error logging into the account.";
+        }
+    }
 ?>
 
 <link rel="stylesheet" type="text/css" href="styleSheet.css">
@@ -10,11 +32,18 @@
     <li><a href="about.php">About</a></li>
 </ul>
 <div id="signin" style="text-align: center">
-<h1>Log in</h1>
-    <p>Email</p>
-    <input type="text">
-    <p>Password</p>
-    <input type="text">
-    <br>
-    <button type="submit">Log in</button>
+    <form id="login" method="post">
+        <p>Email</p>
+        <input type="text" id="email" name="email" required>
+
+        <p>Password</p>
+        <input type="password" id="password" name="pass" required>
+        <br>
+
+        <button type="submit" name="login" value="1">Sign In</button>
+    </form>
 </div>
+</div>
+<div style="text-align: center"><a href="create%20account.php">Don't have an account make one</a>
+</div>
+</body>
