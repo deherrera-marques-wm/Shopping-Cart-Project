@@ -1,11 +1,11 @@
 <?php
-    include_once(Connector.php);
+    include_once('Connector.php');
 
     if(@$_POST['login']) {
-        $query = $con->prepare("SELECT * FROM Users WHERE Email = :email AND Password = :pass");
+        $query = $dbh->prepare("SELECT * FROM Users WHERE Email = :email AND Password = :pass");
         $result = $query->execute(
             array(
-                'username' => $_POST['email'],
+                'email' => $_POST['email'],
                 'password' => $_POST['pass']
             )
         );

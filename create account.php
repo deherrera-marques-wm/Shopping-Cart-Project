@@ -1,17 +1,18 @@
 <?php
-include_once('connector.php');
+include_once('Connector.php');
 $error = false;
 $success = false;
 if(@$_POST['signup']){
     if(!$_POST['email']){
         $error .= '<p>Email is required!</p>';
     }
-    if(@$_POST['pass']){
+    if(!$_POST['pass']){
         $error .= '<p>Password is required!</p>';
     }
-    $query = $con->prepare("INSERT INTO Users (Email, Password)");
+    $query = $dbh->prepare("INSERT INTO Users (idUsers, Email, Password) VALUES (:id, :email, :password)");
         $result = $query->execute(
             array(
+                'id' => NULL,
                 'email' => $_POST['email'],
                 'password' => $_POST['pass']
             )
@@ -28,7 +29,7 @@ if(@$_POST['signup']){
 <link rel="stylesheet" type="text/css" href="styleSheet.css">
 <body style="background-color: ghostwhite">
 <ul>
-    <li><a href="index.php">Home</a></li>
+    <li><a href="Index.php">Home</a></li>
     <li><a href="product.php">Products</a></li>
     <li><a href="about.php">About</a></li>
     <head>

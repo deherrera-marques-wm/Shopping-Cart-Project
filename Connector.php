@@ -4,7 +4,7 @@ $pass = "root";
 $name = "root";
 
 try{
-    $dbh = new PDO("mysql:host=$hn;dbname=mysql", $name, $pass);
+    $dbh = new PDO("mysql:host=$hn;dbname=mydb", $name, $pass);
     //echo 'we did it! :D';
 }
 catch(PDOException $you){
