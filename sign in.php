@@ -32,7 +32,7 @@
     <li><a href="about.php">About</a></li>
 </ul>
 <div id="signin" style="text-align: center">
-    <form id="login" method="post">
+    <form id="login" method="POST">
         <p>Email</p>
         <input type="text" id="email" name="email" required>
 
