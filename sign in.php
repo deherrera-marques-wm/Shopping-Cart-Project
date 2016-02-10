@@ -25,6 +25,7 @@
 ?>
 
 <link rel="stylesheet" type="text/css" href="styleSheet.css">
+<head>
 <body style="background-color: ghostwhite">
 <ul>
     <li><a href="index.php">Home</a></li>
@@ -43,7 +44,7 @@
         <button type="submit" name="login" value="1">Sign In</button>
     </form>
 </div>
-</div>
+</head>
 <div style="text-align: center"><a href="create%20account.php">Don't have an account make one</a>
 </div>
 </body>
