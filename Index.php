@@ -25,6 +25,6 @@
         <img border="0" src="http://randommization.com/wp-content/uploads/2011/10/Steampunk-Xbox-360-Controller.jpg"/>
     </a>
 </div>
-<footer><p>Copyright 2016</p><a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=pacman+game" id="email1">My"hidden"email@gmail.com</a></footer>
+<footer><p>Copyright 2016</p><a href="#" id="email1">My"hidden"email@gmail.com</a></footer>
 </body>
 </html>
