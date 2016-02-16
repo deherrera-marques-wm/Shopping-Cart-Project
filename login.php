@@ -29,10 +29,11 @@ if(@$_POST['signup']) {
     );
     if ($result) {
         $success = "User, " . $_POST['email'] . " was successfully logged in.";
-        header("Location: profile.php");
+        header("Location: Index.php");
+        $_SESSION['email'] = $_POST['email'];
     } else {
         $success = "There was an error logging into the account.";
     }
 }
-
+?>
 
