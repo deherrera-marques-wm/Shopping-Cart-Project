@@ -13,10 +13,7 @@
     <li><a href="about.php">About</a></li>
     <ul style="float:right;list-style-type:none;">
         <li><a href="create%20account.php">Create Account</a></li>
-        <li><?php echo $_SESSION['user'] -> email; ?>
-
-
-        </li>
+        <li><?php echo $_SESSION['email']; ?></li>
     </ul>
 </ul>
 
