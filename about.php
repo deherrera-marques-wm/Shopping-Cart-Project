@@ -1,5 +1,4 @@
 <?php ?>
-
 <!DOCTYPE html>
 <title>About</title>
 <link rel="stylesheet" type="text/css" href="styleSheet.css">
@@ -14,7 +13,7 @@
             <li><a href="sign%20in.php">Login</a></li>
         </ul>
     </ul>
-    <h1>About Me</h1>
+    <h1>About Us</h1>
     <hr>
     <p>N3rds-R-Us is a website for all N3rdy G4mers who want to play video games like the pros. Don't be that guy (Or girl) that doesn't get gaming things because you think it is pointless because of how much money things are. These items are the best in town and feel, look, and smell great.</p>
     <footer><p>Copyright 2016</p><a href="#" id="email1">My"hidden"email@gmail.com</a></footer>
