@@ -60,10 +60,10 @@ if(isset($_GET['del'])) {
     $_SESSION['total'] = 0;
 }
 ?>
-
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="styleSheet.css">
 <title>Products</title>
+<h1 id="name">N3rds-R-Us</h1>
 <body style="background-color: ghostwhite">
 <ul>
     <li><a href="index.php">Home</a></li>

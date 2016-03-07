@@ -1,6 +1,7 @@
 <?php ?>
 <!DOCTYPE html>
 <title>About</title>
+<h1 id="name">N3rds-R-Us</h1>
 <link rel="stylesheet" type="text/css" href="styleSheet.css">
 <body style="background-color: ghostwhite">
 <head>
